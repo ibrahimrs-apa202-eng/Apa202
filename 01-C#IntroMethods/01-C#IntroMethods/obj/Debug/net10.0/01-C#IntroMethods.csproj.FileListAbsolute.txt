@@ -12,3 +12,4 @@ C:\Users\Acer\Desktop\Apa202\01-C#IntroMethods\01-C#IntroMethods\obj\Debug\net10
 C:\Users\Acer\Desktop\Apa202\01-C#IntroMethods\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.pdb
 C:\Users\Acer\Desktop\Apa202\01-C#IntroMethods\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.genruntimeconfig.cache
 C:\Users\Acer\Desktop\Apa202\01-C#IntroMethods\01-C#IntroMethods\obj\Debug\net10.0\ref\01-C#IntroMethods.dll
+C:\Users\Acer\Desktop\Apa202\01-C#IntroMethods\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.sourcelink.json

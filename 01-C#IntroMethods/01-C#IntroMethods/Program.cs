@@ -1,31 +1,78 @@
-﻿class Program
+﻿
+
+class Program
 {
-    static void Main()
+    
+    static void Calculate(double a, double b)
     {
-        Console.WriteLine(Topla(5, 1));
-        Console.WriteLine(Cix(5, 5));
-        Console.WriteLine(Vur(5, 7));
-        Console.WriteLine(Bol(6, 3));
+        Console.WriteLine("Toplama: " + (a + b));
+        Console.WriteLine("Çıxma: " + (a - b));
+        Console.WriteLine("Vurma: " + (a * b));
+
+        if (b != 0)
+            Console.WriteLine("Bölme: " + (a / b));
+        else
+            Console.WriteLine("0-a bölmek olmaz!");
     }
 
-    static int Topla(int a, int b)
+    
+    static void FindEvenOdd(int[] arr)
     {
-        return a + b;
+        Console.WriteLine("Cüt ededler:");
+        foreach (int num in arr)
+        {
+            if (num % 2 == 0)
+                Console.Write(num + " ");
+        }
+
+        Console.WriteLine("Tek ededler:");
+        foreach (int num in arr)
+        {
+            if (num % 2 != 0)
+                Console.Write(num + " ");
+        }
+        Console.WriteLine();
+    }
+    static int SumDivisibleBy4And5(int[] arr)
+    {
+        int sum = 0;
+        foreach (int num in arr)
+        {
+            if (num % 4 == 0 && num % 5 == 0)
+                sum += num;
+        }
+        return sum;
+    }
+    static int CountChar(string sentence, char ch)
+    {
+        int count = 0;
+        foreach (char c in sentence)
+        {
+            if (c == ch)
+                count++;
+        }
+        return count;
     }
 
-    static int Cix(int a, int b)
+    static void Main(string[] args)
     {
-        return a - b;
-    }
+        
+        Calculate(10, 5);
 
-    static int Vur(int a, int b)
-    {
-        return a * b;
-    }
+        
+        int[] numbers = { 14, 20, 35, 40, 57, 60, 100 };
+        FindEvenOdd(numbers);
 
-    static double Bol(int a, int b)
-    {
-        return (double)a / b;
+        int sum = SumDivisibleBy4And5(numbers);
+        Console.WriteLine( sum);
+
+ 
+        string sentence = "ibo samandarov";
+        char ch = 'a';
+        int count = CountChar(sentence, ch);
+        Console.WriteLine($"'{ch}' simvolunun sayı: " + count);
     }
 }
+
+
 
