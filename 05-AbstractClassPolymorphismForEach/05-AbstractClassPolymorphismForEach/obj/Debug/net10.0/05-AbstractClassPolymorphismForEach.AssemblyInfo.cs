@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("05-AbstractClassPolymorphismForEach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0e57c1223bacdcfd3ad91f97d823f805b258ad7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+999f443e20fed6b3e08eb48e80994cf45760abc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("05-AbstractClassPolymorphismForEach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("05-AbstractClassPolymorphismForEach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

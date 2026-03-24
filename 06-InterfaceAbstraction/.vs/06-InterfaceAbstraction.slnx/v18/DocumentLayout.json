@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\Apa202\\06-InterfaceAbstraction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98F382C3-CEB8-4082-A377-DF2B6A2CEEE8}|06-InterfaceAbstraction\\06-InterfaceAbstraction.csproj|c:\\users\\acer\\desktop\\apa202\\06-interfaceabstraction\\06-interfaceabstraction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F382C3-CEB8-4082-A377-DF2B6A2CEEE8}|06-InterfaceAbstraction\\06-InterfaceAbstraction.csproj|solutionrelative:06-interfaceabstraction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F382C3-CEB8-4082-A377-DF2B6A2CEEE8}|06-InterfaceAbstraction\\06-InterfaceAbstraction.csproj|c:\\users\\acer\\desktop\\apa202\\06-interfaceabstraction\\06-interfaceabstraction\\icalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F382C3-CEB8-4082-A377-DF2B6A2CEEE8}|06-InterfaceAbstraction\\06-InterfaceAbstraction.csproj|solutionrelative:06-interfaceabstraction\\icalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F382C3-CEB8-4082-A377-DF2B6A2CEEE8}|06-InterfaceAbstraction\\06-InterfaceAbstraction.csproj|c:\\users\\acer\\desktop\\apa202\\06-interfaceabstraction\\06-interfaceabstraction\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F382C3-CEB8-4082-A377-DF2B6A2CEEE8}|06-InterfaceAbstraction\\06-InterfaceAbstraction.csproj|solutionrelative:06-interfaceabstraction\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "calculation.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Apa202\\06-InterfaceAbstraction\\06-InterfaceAbstraction\\calculation.cs",
+              "RelativeDocumentMoniker": "06-InterfaceAbstraction\\calculation.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Apa202\\06-InterfaceAbstraction\\06-InterfaceAbstraction\\calculation.cs",
+              "RelativeToolTip": "06-InterfaceAbstraction\\calculation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:29:18.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICalculation.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Apa202\\06-InterfaceAbstraction\\06-InterfaceAbstraction\\ICalculation.cs",
+              "RelativeDocumentMoniker": "06-InterfaceAbstraction\\ICalculation.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Apa202\\06-InterfaceAbstraction\\06-InterfaceAbstraction\\ICalculation.cs",
+              "RelativeToolTip": "06-InterfaceAbstraction\\ICalculation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:27:15.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Apa202\\06-InterfaceAbstraction\\06-InterfaceAbstraction\\Program.cs",
+              "RelativeDocumentMoniker": "06-InterfaceAbstraction\\Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Apa202\\06-InterfaceAbstraction\\06-InterfaceAbstraction\\Program.cs",
+              "RelativeToolTip": "06-InterfaceAbstraction\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:26:29.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
