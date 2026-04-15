@@ -67,4 +67,50 @@
         //Console.WriteLine(manat1.AZN);
     }
 }
-//}
+////}
+//using System;
+//using System.Threading;
+
+//class Program
+{
+    static void Main()
+    {
+        // Konsol pəncərəsinin təmizlənməsi
+        Console.Clear();
+
+        string ball = "⚽";
+        string goal = "|______|";
+
+        // 1. Mərhələ: Topun qola getməsi
+        for (int i = 0; i < 20; i++)
+        {
+            Console.Clear();
+            Console.WriteLine("\n\n\n");
+            Console.WriteLine(new string(' ', i) + ball + new string(' ', 20 - i) + goal);
+            Thread.Sleep(50);
+        }
+
+        Console.Clear();
+        Console.WriteLine("\n\n\n                     GOOOOOL!!!");
+        Thread.Sleep(1000);
+
+        // 2. Mərhələ: Ronaldo "SIUUU" Animasiyası
+        string[] ronaldoFrames = {
+            "   O  \n  /|\\ \n  / \\ ",   // Qaçış
+            "  \\O/ \n   |  \n  / \\ ",   // Atılış
+            "  __O__ \n    |  \n   / \\ ",  // Havada süzülmə
+            "   [S]  \n   /|\\ \n   / \\ "   // Məşhur SIUUU duruşu!
+        };
+
+        foreach (var frame in ronaldoFrames)
+        {
+            Console.Clear();
+            Console.WriteLine("\n\n" + frame);
+            if (frame.Contains("[S]"))
+            {
+                Console.WriteLine("\n   SIUUUUUUUUUU!!!");
+            }
+            Thread.Sleep(500);
+        }
+    }
+}
